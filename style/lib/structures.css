@@ -1,0 +1,405 @@
+
+
+/*Height & width tags ----------------------------------------------------------------*/
+.height33{
+  height: 33.33%;
+}
+
+.height25{
+  height: 25%;
+}
+
+.height50{
+  height: 50%;
+}
+
+.height100{
+  height: 100%;
+}
+
+.width33{
+  width: 33.33%;
+}
+
+.width25{
+  height: 25%;
+}
+
+.width50{
+  width: 50%;
+}
+
+.width100{
+  width: 100%;
+}
+/*----------------------------------------------------------------------------*/
+
+/*grid tags ------------------------------------------------------------------*/
+
+/*grid definition*/
+.grid{
+  display: grid;
+}
+
+/*grid template columns definitions*/
+.gC1{
+  grid-template-columns: 100%;
+}
+.gC2{
+  grid-template-columns: 50% 50%;
+}
+
+.gC2 > .giFullLine{
+  grid-column: 1 / span 2;
+}
+
+/*grid rows definition*/
+.gR2{
+  grid-template-rows: 50% 50%;
+}
+
+.gR3{
+  grid-template-rows: 33.33% 33.33% 33.33%;
+}
+
+.gR4{
+  grid-template-rows: 25% 25% 25% 25%;
+}
+
+.gR5{
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+/*grid vertical aligment definitions*/
+.gAlignContCenter{
+  align-content: center;
+}
+
+.gAlignContStart{
+  align-content: start;
+}
+
+.gAlignContEnd{
+  align-content: end;
+}
+
+.gAlignContSpaceAround{
+  align-content: space-around;
+}
+
+.gAlignContSpaceBetween{
+  align-content: space-between;
+}
+
+.gAlignContSpaceEven{
+  align-content: space-evenly;
+}
+
+/*grid horizontal aligmente definitions*/
+.gJustContCenter{
+  justify-content: center;
+}
+
+.gJustContStart{
+  justify-content: start;
+}
+
+.gJustContEnd{
+  justify-content: end;
+}
+
+.gJustContSpaceAround{
+  justify-content: space-around;
+}
+
+.gJustContSpaceBetween{
+  justify-content: space-between;
+}
+
+.gJustContSpaceEven{
+  justify-content: space-evenly;
+}
+/*item column position and sizes definitions*/
+.giC1{
+  grid-column: 1;
+}
+
+.giC2{
+  grid-column: 2;
+}
+
+.giC3{
+  grid-column: 3;
+}
+
+.giC4{
+  grid-column: 4;
+}
+
+.giC1span2{
+  grid-column: 1 / span 2;
+}
+
+.giC2span2{
+  grid-column: 2 /span 2;
+}
+
+/*item row position and sizes definitions*/
+.giR1{
+  grid-row: 1;
+}
+
+.giR2{
+  grid-row: 2;
+}
+
+.giR3{
+  grid-row: 3;
+}
+
+.giR4{
+  grid-row: 4;
+}
+
+.giR1span2{
+  grid-row: 1 / span 2;
+}
+
+.giR1span3{
+  grid-row: 1 / span 3;
+}
+.giR2span2{
+  grid-row: 2 / span 2;
+}
+
+.giR2span3{
+  grid-row: 2 / span 3;
+}
+/*----------------------------------------------------------------------------*/
+
+/*flex box tags --------------------------------------------------------------*/
+.flex{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/*flex box properties definitions*/
+.fR{
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.fC{
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.fRRev{
+  flex-direction: row-reverse;
+}
+
+.fCRev{
+  flex-direction: column-reverse;
+}
+
+.fNoW{
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+}
+
+.fW{
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.fWRev{
+  flex-wrap: wrap-reverse;
+}
+
+.fJustContCenter{
+  justify-content: center;
+}
+
+.fJustContEnd{
+  justify-content: flex-end;
+}
+
+.fJustContStart{
+  justify-content: flex-start;
+}
+
+.fJustContSpaceAround{
+  justify-content: space-around;
+}
+
+.fJustContSpaceBetween{
+  justify-content: space-between;
+}
+
+.fAlignItemsCenter{
+  align-items: center;
+}
+
+.fAlignItemsEnd{
+  align-items: flex-end;
+}
+
+.fAlignItemsStart{
+  align-items: flex-start;
+}
+
+.fAlignItemsStretch{
+  align-items:stretch;
+}
+
+.fAlignItemsBase{
+  align-items: baseline;
+}
+
+.fAlignContCenter{
+  align-content: center;
+}
+
+.fAlignContEnd{
+  align-content: flex-end;
+}
+
+.fAlignContStart{
+  align-content: flex-start;
+}
+
+.fAlignContSpaceAround{
+  align-content: space-around;
+}
+
+.fAlignContSpaceBetween{
+  align-content: space-between;
+}
+
+.fAlignContStretch{
+  align-content: stretch;
+}
+
+/*flex items definitions*/
+/*order*/
+.fiOrder1{
+  order: 1;
+}
+
+.fiOrder2{
+  order: 2;
+}
+
+.fiOrder3{
+  order: 3;
+}
+
+.fiOrder3{
+  order: 3;
+}
+
+/*Grow*/
+.fiGrow0{
+  flex-grow: 0;
+}
+
+.fiGrow1{
+  flex-grow: 1;
+}
+
+.fiGrow2{
+  flex-grow: 2;
+}
+
+.fiGrow3{
+  flex-grow: 3;
+}
+
+.fiGrow4{
+  flex-grow: 4;
+}
+
+.fiGrow5{
+  flex-grow: 5;
+}
+
+.fiGrow6{
+  flex-grow: 6;
+}
+
+.fiGrow7{
+  flex-grow: 7;
+}
+
+.fiGrow8{
+  flex-grow: 8;
+}
+
+/*Shrink*/
+.fiShrink0{
+  flex-shrink: 0;
+}
+
+.fiShrink1{
+  flex-shrink: 1;
+}
+
+.fiShrink2{
+  flex-shrink: 2;
+}
+
+.fiShrink3{
+  flex-shrink: 3;
+}
+
+.fiShrink4{
+  flex-shrink: 4;
+}
+
+.fiShrink5{
+  flex-shrink: 5;
+}
+
+.fiShrink6{
+  flex-shrink: 6;
+}
+
+.fiShrink7{
+  flex-shrink: 7;
+}
+
+.fiShrink8{
+  flex-shrink: 8;
+}
+
+/*Align self*/
+.fiAlignBase{
+  align-self: baseline;
+}
+
+.fiAlignEnd{
+  align-self: flex-end;
+}
+
+.fiAlignStart{
+  align-self: flex-start;
+}
+
+.fiAlignCenter{
+  align-self: center;
+}
+
+.fiAlignStretch{
+  align-self: stretch;
+}
+/*----------------------------------------------------------------------------*/
